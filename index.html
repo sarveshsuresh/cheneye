@@ -1,73 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Chen Eye Opticians</title>
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cheneye Opticians in Adyar offers a free eye test + 20% off on frames. 30+ years experience. Visit Gokul Arcade before offer ends." />
+  <title>Cheneye Opticians – Free Eye Test & 20% Off at Gokul Arcade</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
-      overflow-x: hidden;
-      background-color: #0f0f2c;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
     }
-    .image-container {
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    .content {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .offer {
+      background: #ffecb3;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .brands img {
       width: 100%;
-      display: flex;
-      justify-content: center;
-      overflow-x: hidden;
+      max-width: 160px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    .main-image {
-      max-width: 100%;
-      height: auto;
-      display: block;
+    .brands {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contact {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-top: 2rem;
+    }
+    .contact a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Cheneye Opticians</h1>
+    <p>Serving Adyar with 30+ Years of Trusted Eye Care</p>
+  </header>
 
-  <div class="image-container">
-    <img 
-      src="assets/Desktop - 1 (2).png" 
-      alt="Chen Eye Poster" 
-      usemap="#linkmap" 
-      class="main-image">
+  <div class="content">
+    <div class="offer">
+      🎉 Get <strong>Free Eye Testing</strong> & <strong>20% OFF</strong> on All Frames!<br />
+      Visit us at <strong>Gokul Arcade, Adyar</strong> before the offer expires!
+    </div>
+
+    <h2>Explore Top Brands in Eyewear</h2>
+    <div class="brands">
+      <img src="https://images.ray-ban.com/is/image/RayBan/8056597721345__002.png" alt="Ray-Ban" />
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/34014831693854.jpg" alt="Tommy Hilfiger" />
+      <img src="https://www.lenskart.com/media/catalog/product/v/i/vincent-chase-vc-e14094-full-rim-eyeglasses_vincent-chase-vc-e14094_full-rim_eyeglasses_img_001.jpg" alt="Vincent Chase" />
+      <img src="https://cdn.shopify.com/s/files/1/0276/4200/8352/products/gucci1.jpg?v=1627301532" alt="Gucci" />
+      <img src="https://m.media-amazon.com/images/I/61+1LWh3ZyL._UX679_.jpg" alt="Fastrack" />
+    </div>
+
+    <div class="contact">
+      📍 Gokul Arcade, Adyar, Chennai – <em>insert exact address here</em><br />
+      📧 <a href="mailto:cheneyeopticians@gmail.com">cheneyeopticians@gmail.com</a><br />
+      📞 <a href="tel:+919123456789">+91 91234 56789</a>
+    </div>
   </div>
 
-  <map name="linkmap">
-    <!-- Area 1: Landline 044-24454944 -->
-    <area shape="rect" coords="3144,1274,4058,1409" href="tel:+914424454944" alt="Call Landline 1">
-
-    <!-- Area 2: Mobile +91-9841155611 -->
-    <area shape="rect" coords="3154,1449,4080,1581" href="tel:+919841155611" alt="Call Mobile">
-
-    <!-- Area 3: Google Maps Link -->
-    <area shape="rect" coords="4879,1046,6292,1554" href="https://g.co/kgs/Aaum1Ai" target="_blank" alt="Open Map 1">
-
-    <!-- Area 4: Landline 044-24454944 (Bottom) -->
-    <area shape="rect" coords="1885,29344,2846,29483" href="tel:+914424454944" alt="Call Landline 2">
-
-    <!-- Area 5: Mobile +91-9841155611 (Bottom) -->
-    <area shape="rect" coords="1889,29534,4080,29672" href="tel:+919841155611" alt="Call Mobile Bottom">
-
-    <!-- Area 6: Google Maps Link (Bottom) - updated coordinates -->
-    <area shape="rect" coords="3547,29045,5282,29647" href="https://g.co/kgs/Aaum1Ai" target="_blank" alt="Open Map 2">
-  </map>
-
-  <script src="assets/imageMapResizer.min.js"></script>
-  <script>
-    window.onload = function () {
-      if (typeof imageMapResize === 'function') {
-        imageMapResize();
-      }
-    };
-  </script>
-
+  <footer>
+    &copy; 2025 Cheneye Opticians. All rights reserved.
+  </footer>
 </body>
 </html>
